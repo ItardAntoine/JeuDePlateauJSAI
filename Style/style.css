@@ -1,0 +1,53 @@
+
+
+h1, h3 {
+	text-align: center;
+}
+
+#main-ctnr {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.board-square {
+
+	border : 1px solid red;
+	width: 40px;
+	height:40px;
+  	background-size: 100% 100%;
+}
+
+#board {
+	display: flex;
+
+}
+
+.infos-joueur {
+
+	border : 1px solid red;
+	border-radius: 6px;
+	width: 260px;
+	margin-top: 20px;
+	padding : 20px;
+	position: relative;
+}
+
+.infos-joueur img{
+
+	width: 102px;
+	height: 76px;
+	position: absolute;
+	top : 10px;
+	right : 10px;
+}
+
+
+@media all and (max-width: 500px) {
+	.board-square {
+		width: 25px;
+		height:25px;
+	
+	}
+}
